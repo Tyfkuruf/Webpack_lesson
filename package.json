@@ -1,23 +1,30 @@
 {
-  "name": "Webpack_lesson",
+  "name": "webpack_lesson",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "start": "webpack --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tyfkuruf/Webpack_lesson.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Egor Dryakhlov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Tyfkuruf/Webpack_lesson/issues"
   },
   "homepage": "https://github.com/Tyfkuruf/Webpack_lesson#readme",
   "devDependencies": {
+    "css-loader": "^3.5.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.13.1",
+    "path": "^0.12.7",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
   }
